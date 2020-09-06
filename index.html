@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mlldxe's Blog</title>
+    <link href="static/img/32.png" rel="icon" sizes="32x32"/>
+    <link href="static/img/192.png" rel="icon" sizes="192x192"/>
+    <link href="static/css/paul.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-image: url('static/img/background-3.jpg');">
+<div id="loader">
+    <figure>
+        <img alt="avatar" src="static/img/avatar.jpg"/>
+    </figure>
+</div>
+<main>
+    <div class="content">
+        <figure class="me">
+            <img alt="avatar" class="avatar" src="static/img/avatar.jpg"/>
+            <h2 class="name">Mlldxe's Blog</h2>
+        </figure>
+        <section id="main" class="active">
+            <a href="http://mlldxe.cn/"><i class="fa fa-home"></i><span class="title">Blog</span></a>
+            <a href="http://Weibo.com/jokesevennnnnnnnnnnn/" target="_blank"><i class="fa fa-weibo"></i><span
+                    class="title">Weibo</span></a>
+            <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1103649452&website=www.nuanxin520.com"
+               target="_blank"><i class="fa fa-qq"></i><span class="title">QQ</span></a>
+            <a href="https://www.facebook.com/profile.php/" target="_blank"><i class="fa fa-facebook-official"></i><span
+                    class="title">Facebook</span></a>
+            <a href="https://twitter.com/DravenSama_/" target="_blank"><i class="fa fa-twitter"></i><span class="title">Twitter</span></a>
+            <a href="mailto:1103649452@qq.com/" target="_blank"><i class="fa fa-envelope"></i><span
+                    class="title">Email</span></a>
+        </section>
+        <section id="articles">
+            <span>Loading...</span>
+        </section>
+
+        <section id="products">
+            <a class="item" href="http://mlldxe.cn/master-megp" target="_blank">引导页<span class="meta">一个不学无术的伪程序猿</span></a>
+            <a class="item" href="http://mlldxe.cn/leo" target="_blank">吃枣药丸<span class="meta">失败者一般落荒而逃</span></a>
+            <a class="item" href="http://mlldxe.cn/baidu" target="_blank">百度一下<span
+                    class="meta">本站与百度公司没有任何联系</span></a>
+            <a class="item" href="http://mlldxe.cn/Time" target="_blank">Tools<span class="meta">在线时钟小程序</span></a>
+            <a class="item" href="http://mlldxe.cn/huaji" target="_blank">闪亮的滑稽<span class="meta">官方滑稽网</span></a>
+            <a class="item" href="https://mlldxe.cn/wp-content/themes/kratos-pjax/magic_square/"
+               target="_blank">3D魔方<span class="meta">旋转立体魔方</span></a>
+        </section>
+        <section id="about">
+            <p class="center">A Personal Blog</p>
+            <p class="center">毕业狗/打酱油/性别男，爱好女/没啥特长/宅/2.5次元</p>
+            <p class="center">一只菜狗，苣蒻，奄奄一息</p><br>
+            <p class="right"><a href="http://mlldxe.cn/about" target="_blank">More...</a></p>
+        </section>
+        <div class="actions">
+            <div class="item home active">
+                <i class="fa fa-star"></i>
+                <span class="title">首页</span>
+            </div>
+            <div class="item article">
+                <i class="fa fa-book"></i>
+                <span class="title">文章</span>
+
+            </div>
+            <div class="item product">
+                <i class="fa fa-trophy"></i>
+                <span class="title">作品</span>
+            </div>
+            <div class="item about">
+                <i class="fa fa-graduation-cap"></i>
+                <span class="title">关于我</span>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>© 2018 <a href="http://mlldxe.cn/">Mlldxe's Blog</a>. Designed By Dreamer-Paul.</p>
+</footer>
+
+<script src="static/js/paul.js"></script>
+<script>
+    const picnum = parseInt(String(Math.random() * 6 + 1));
+    const url = 'static/img/background-' + picnum + '.jpg';
+    window.document.getElementsByTagName('body').item(0).style.backgroundImage = 'url(' + url + ')';
+</script>
+</body>
+</html>
